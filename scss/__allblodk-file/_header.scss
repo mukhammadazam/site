@@ -3,14 +3,32 @@ header {
     @include BG (url(../../imges/cover.png), no-repeat, 100%, center);
 }
 
+nav {
+    position: relative;
+    .label {
+        position: absolute;
+        top: 45px;
+        right: 60px;
+    }
+}
+
 .nav {
     padding-top: 40px;
     @include flexfunksiya (row, center, space-between, wrap);
     &__list {
         @include flexfunksiya (row, center, center, wrap);
         gap: 26px;
+        &--item a {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #737373;
+        }
     }
     .item__img {
-        padding: 0 42px;
+        padding: 0 16px;
     }
 }

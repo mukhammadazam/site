@@ -19,6 +19,15 @@ header {
   background-position: center;
 }
 
+nav {
+  position: relative;
+}
+nav .label {
+  position: absolute;
+  top: 45px;
+  right: 60px;
+}
+
 .nav {
   padding-top: 40px;
   display: flex;
@@ -35,6 +44,15 @@ header {
   flex-wrap: wrap;
   gap: 26px;
 }
+.nav__list--item a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
 .nav .item__img {
-  padding: 0 42px;
+  padding: 0 16px;
 }/*# sourceMappingURL=main.css.map */
