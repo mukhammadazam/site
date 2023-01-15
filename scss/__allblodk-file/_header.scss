@@ -39,6 +39,10 @@
         }
     }
     
+    .input {
+        display: none;
+    }
+    
     @media screen and (max-width:576px) {
         nav {
             position: relative;
@@ -49,13 +53,19 @@
             }
         }
         .nav {
+            background-color: #fff;
+            position: relative;
             &__logo {
                 padding-left: 35px;
             }
             &__list {
-                @include flexfunksiya (row, center, center, wrap);
+                position: absolute;
+                top: 164px;
+                left: 150px;
+                font-size: 30px;
+                transform: translatey(-200%);
+                @include flexfunksiya (column, center, center, wrap);
                 gap: 26px;
-                display: none;
             }
             &__list1 {
                 display: block;
@@ -69,5 +79,8 @@
         }
         .itt {
             display: none;
+        }
+        .input:checked~.nav .nav__list {
+            transform: translatey(0);
         }
     }
