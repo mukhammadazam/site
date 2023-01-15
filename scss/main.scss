@@ -5,3 +5,13 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@import './__allblodk-file/all-block';
+@import './mixin.scss';
+@import './veraybls..scss';
