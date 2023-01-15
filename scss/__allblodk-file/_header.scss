@@ -59,9 +59,13 @@ nav {
             padding-left: 35px;
         }
         &__list {
+            background-color: #fff;
+            height: 50vh;
+            width: 100vw;
+            z-index: 100;
             position: absolute;
             top: 164px;
-            left: 150px;
+            left: 0px;
             font-size: 30px;
             transform: translatey(-200%);
             @include flexfunksiya (column, center, center, wrap);
@@ -115,13 +119,21 @@ nav {
             padding: 10px 36px;
             background: #784F33;
             border-radius: 37px;
-            /* btn-text */
             font-family: $open-font;
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
             line-height: 28px;
             color: #FFFFFF;
+            border: 1px solid transparent;
+            &:hover {
+                border: 1px solid $btn-color;
+                background-color: #fff;
+                color: $btn-color;
+                transform: rotate(360deg);
+                cursor: pointer;
+                transition: all 2s ease;
+            }
         }
         &--btn1 {
             border: none;
@@ -137,6 +149,13 @@ nav {
             font-size: 14px;
             line-height: 28px;
             color: $btn-color;
+            &:hover {
+                background-color: $btn-color;
+                color: #fff;
+                transform: rotate(360deg);
+                cursor: pointer;
+                transition: all 2s ease;
+            }
         }
     }
 }
