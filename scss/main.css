@@ -20,9 +20,21 @@ header {
 }
 
 .nav {
+  padding-top: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.nav .item__img {
+  padding: 0 42px;
 }/*# sourceMappingURL=main.css.map */

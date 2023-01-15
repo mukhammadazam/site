@@ -4,5 +4,13 @@ header {
 }
 
 .nav {
-    @include flexfunksiya (row, center, space-between, wrap)
+    padding-top: 40px;
+    @include flexfunksiya (row, center, space-between, wrap);
+    &__list {
+        @include flexfunksiya (row, center, center, wrap);
+        gap: 26px;
+    }
+    .item__img {
+        padding: 0 42px;
+    }
 }
