@@ -1,36 +1,73 @@
-@import '../mixin.scss';
-@import '../veraybls.scss';
-header {
-    @include BG (url(../../imges/cover.png), no-repeat, 100%, center);
-}
-
-nav {
-    position: relative;
-    .label {
-        position: absolute;
-        top: 45px;
-        right: 60px;
+    @import '../mixin.scss';
+    @import '../veraybls.scss';
+    header {
+        @include BG (url(../../imges/cover.png), no-repeat, 100%, center);
     }
-}
-
-.nav {
-    padding-top: 40px;
-    @include flexfunksiya (row, center, space-between, wrap);
-    &__list {
-        @include flexfunksiya (row, center, center, wrap);
-        gap: 26px;
-        &--item a {
-            font-family: 'Open Sans';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 24px;
-            text-align: center;
-            letter-spacing: 0.2px;
-            color: $text-color;
+    
+    nav {
+        position: relative;
+        .label {
+            position: absolute;
+            top: 45px;
+            right: 60px;
         }
     }
-    .item__img {
-        padding: 0 16px;
+    
+    .nav {
+        padding-top: 40px;
+        @include flexfunksiya (row, center, space-between, wrap);
+        &__list {
+            @include flexfunksiya (row, center, center, wrap);
+            gap: 26px;
+            &--item a {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.2px;
+                color: $text-color;
+            }
+        }
+        .item__img {
+            padding: 0 16px;
+        }
+        &__list1 {
+            @include flexfunksiya (row, center, center, nowrap);
+            display: none;
+        }
     }
-}
+    
+    @media screen and (max-width:576px) {
+        nav {
+            position: relative;
+            .label {
+                position: absolute;
+                top: 45px;
+                right: 45px;
+            }
+        }
+        .nav {
+            &__logo {
+                padding-left: 35px;
+            }
+            &__list {
+                @include flexfunksiya (row, center, center, wrap);
+                gap: 26px;
+                display: none;
+            }
+            &__list1 {
+                display: block;
+                @include flexfunksiya (row, center, center, nowrap);
+                padding-right: 83px;
+                gap: 24px;
+            }
+        }
+        .item__img {
+            display: none;
+        }
+        .itt {
+            display: none;
+        }
+    }

@@ -68,4 +68,51 @@ nav .label {
 }
 .nav .item__img {
   padding: 0 16px;
+}
+.nav__list1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  nav {
+    position: relative;
+  }
+  nav .label {
+    position: absolute;
+    top: 45px;
+    right: 45px;
+  }
+  .nav__logo {
+    padding-left: 35px;
+  }
+  .nav__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 26px;
+    display: none;
+  }
+  .nav__list1 {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-right: 83px;
+    gap: 24px;
+  }
+  .item__img {
+    display: none;
+  }
+  .itt {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
