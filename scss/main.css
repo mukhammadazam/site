@@ -130,4 +130,57 @@ nav .label {
   .input:checked ~ .nav .nav__list {
     transform: translatey(0);
   }
+}
+.hero__left {
+  padding-top: 190px;
+}
+.hero__left--title {
+  margin-bottom: 35px;
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 58px;
+  line-height: 65px;
+  color: #252B42;
+  max-width: 500px;
+  width: 100%;
+}
+.hero__left--text {
+  max-width: 376px;
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #737373;
+  padding-bottom: 35px;
+}
+.hero__left--btn {
+  border: none;
+  padding: 10px 36px;
+  background: #784F33;
+  border-radius: 37px;
+  /* btn-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.hero__left--btn1 {
+  border: none;
+  padding: 10px 36px;
+  background: #FFFFFF;
+  border-radius: 37px;
+  border: 1px solid #784F33;
+  border-radius: 37px;
+  /* btn-text */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  color: #784F33;
 }/*# sourceMappingURL=main.css.map */

@@ -1,86 +1,142 @@
-    @import '../mixin.scss';
-    @import '../veraybls.scss';
-    header {
-        @include BG (url(../../imges/cover.png), no-repeat, 100%, center);
+@import '../veraybls.scss';
+@import '../mixin.scss';
+header {
+    @include BG (url(../../imges/cover.png), no-repeat, 100%, center);
+}
+
+nav {
+    position: relative;
+    .label {
+        position: absolute;
+        top: 45px;
+        right: 60px;
     }
-    
+}
+
+.nav {
+    padding-top: 40px;
+    @include flexfunksiya (row, center, space-between, wrap);
+    &__list {
+        @include flexfunksiya (row, center, center, wrap);
+        gap: 26px;
+        &--item a {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: $text-color;
+        }
+    }
+    .item__img {
+        padding: 0 16px;
+    }
+    &__list1 {
+        @include flexfunksiya (row, center, center, nowrap);
+        display: none;
+    }
+}
+
+.input {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
     nav {
         position: relative;
         .label {
             position: absolute;
             top: 45px;
-            right: 60px;
+            right: 45px;
         }
     }
-    
     .nav {
-        padding-top: 40px;
-        @include flexfunksiya (row, center, space-between, wrap);
-        &__list {
-            @include flexfunksiya (row, center, center, wrap);
-            gap: 26px;
-            &--item a {
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 14px;
-                line-height: 24px;
-                text-align: center;
-                letter-spacing: 0.2px;
-                color: $text-color;
-            }
+        background-color: #fff;
+        position: relative;
+        &__logo {
+            padding-left: 35px;
         }
-        .item__img {
-            padding: 0 16px;
+        &__list {
+            position: absolute;
+            top: 164px;
+            left: 150px;
+            font-size: 30px;
+            transform: translatey(-200%);
+            @include flexfunksiya (column, center, center, wrap);
+            gap: 26px;
         }
         &__list1 {
+            display: block;
             @include flexfunksiya (row, center, center, nowrap);
-            display: none;
+            padding-right: 83px;
+            gap: 24px;
         }
     }
-    
-    .input {
+    .item__img {
         display: none;
     }
-    
-    @media screen and (max-width:576px) {
-        nav {
-            position: relative;
-            .label {
-                position: absolute;
-                top: 45px;
-                right: 45px;
-            }
+    .itt {
+        display: none;
+    }
+    .input:checked~.nav .nav__list {
+        transform: translatey(0);
+    }
+}
+
+.hero {
+    &__left {
+        padding-top: 190px;
+        &--title {
+            margin-bottom: 35px;
+            font-family: $martol;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 58px;
+            line-height: 65px;
+            color: $headeding;
+            max-width: 500px;
+            width: 100%;
         }
-        .nav {
-            background-color: #fff;
-            position: relative;
-            &__logo {
-                padding-left: 35px;
-            }
-            &__list {
-                position: absolute;
-                top: 164px;
-                left: 150px;
-                font-size: 30px;
-                transform: translatey(-200%);
-                @include flexfunksiya (column, center, center, wrap);
-                gap: 26px;
-            }
-            &__list1 {
-                display: block;
-                @include flexfunksiya (row, center, center, nowrap);
-                padding-right: 83px;
-                gap: 24px;
-            }
+        &--text {
+            max-width: 376px;
+            width: 100%;
+            font-family: $monsirab;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: $text-color;
+            padding-bottom: 35px;
         }
-        .item__img {
-            display: none;
+        &--btn {
+            border: none;
+            padding: 10px 36px;
+            background: #784F33;
+            border-radius: 37px;
+            /* btn-text */
+            font-family: $open-font;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 28px;
+            color: #FFFFFF;
         }
-        .itt {
-            display: none;
-        }
-        .input:checked~.nav .nav__list {
-            transform: translatey(0);
+        &--btn1 {
+            border: none;
+            padding: 10px 36px;
+            background: #FFFFFF;
+            border-radius: 37px;
+            border: 1px solid #784F33;
+            border-radius: 37px;
+            /* btn-text */
+            font-family: $open-font;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 28px;
+            color: $btn-color;
         }
     }
+}
