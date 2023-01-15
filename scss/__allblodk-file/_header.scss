@@ -1,4 +1,5 @@
 @import '../mixin.scss';
+@import '../veraybls.scss';
 header {
     @include BG (url(../../imges/cover.png), no-repeat, 100%, center);
 }
@@ -19,13 +20,14 @@ nav {
         @include flexfunksiya (row, center, center, wrap);
         gap: 26px;
         &--item a {
+            font-family: 'Open Sans';
             font-style: normal;
             font-weight: 600;
             font-size: 14px;
             line-height: 24px;
             text-align: center;
             letter-spacing: 0.2px;
-            color: #737373;
+            color: $text-color;
         }
     }
     .item__img {

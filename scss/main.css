@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(../../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Martel";
+  src: url(../../fonts/Martel-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +57,7 @@ nav .label {
   gap: 26px;
 }
 .nav__list--item a {
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
