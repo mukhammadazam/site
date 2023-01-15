@@ -1,0 +1,8 @@
+@import '../mixin.scss';
+header {
+    @include BG (url(../../imges/cover.png), no-repeat, 100%, center);
+}
+
+.nav {
+    @include flexfunksiya (row, center, space-between, wrap)
+}

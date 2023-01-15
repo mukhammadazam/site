@@ -10,4 +10,19 @@
   max-width: 1040px;
   width: 100%;
   margin: 0 auto;
+}
+
+header {
+  background-image: url(../../imges/cover.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=main.css.map */

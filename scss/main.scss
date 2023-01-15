@@ -12,6 +12,6 @@
     margin: 0 auto;
 }
 
-@import './__allblodk-file/all-block';
-@import './mixin.scss';
-@import './veraybls..scss';
+@import './mixin';
+@import './veraybls';
+@import './__allblodk-file/all-block'
