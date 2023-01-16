@@ -379,12 +379,37 @@ nav .label {
   text-align: center;
   color: #737373;
 }
+.hero2__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+}
+.hero2__list--item {
+  max-width: 240px;
+}
 .hero2__list--item h5 {
+  text-align: center;
   font-family: "Martel";
+  padding-bottom: 15px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.1px;
   color: #252B42;
+}
+.hero2__list--item p {
+  max-width: 145px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
 }/*# sourceMappingURL=main.css.map */

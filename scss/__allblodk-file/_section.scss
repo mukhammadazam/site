@@ -105,15 +105,32 @@
         color: $text-color;
     }
     &__list {
+        @include flexfunksiya (row, center, center, nowrap);
+        gap: 40px;
         &--item {
+            max-width: 240px;
             h5 {
+                text-align: center;
                 font-family: $martol;
+                padding-bottom: 15px;
                 font-style: normal;
                 font-weight: 700;
                 font-size: 16px;
                 line-height: 24px;
                 letter-spacing: 0.1px;
-                color: #252B42;
+                color: $headeding;
+            }
+            p {
+                max-width: 145px;
+                margin: 0 auto;
+                padding-bottom: 30px;
+                font-family: $open-font;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: $text-color;
             }
         }
     }
