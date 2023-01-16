@@ -341,4 +341,41 @@ nav .label {
   text-align: center;
   letter-spacing: 0.1px;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 576px) {
+  .hero1__title {
+    max-width: 258px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .hero1__text {
+    max-width: 206px;
+  }
+}
+.hero2 {
+  padding-top: 125px;
+}
+.hero2__title {
+  text-align: center;
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #252B42;
+}
+.hero2__text {
+  max-width: 431px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 75px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #737373;
 }/*# sourceMappingURL=main.css.map */

@@ -65,3 +65,43 @@
         }
     }
 }
+
+@media screen and (max-width:576px) {
+    .hero1 {
+        &__title {
+            max-width: 258px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        &__text {
+            max-width: 206px;
+        }
+    }
+}
+
+.hero2 {
+    padding-top: 125px;
+    &__title {
+        text-align: center;
+        font-family: $martol;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: $headeding;
+    }
+    &__text {
+        max-width: 431px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 75px;
+        font-family: $open-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: $text-color;
+    }
+}
