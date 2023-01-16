@@ -307,13 +307,38 @@ nav .label {
   justify-content: center;
   flex-wrap: wrap;
   gap: 34px;
+  padding-bottom: 102px;
 }
 .hero1__list--item {
   padding: 0 107px;
   background-color: #fff;
+  padding: 0 107px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  border-radius: 5px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
-.hero1 .iii {
-  background: #295C7A;
+.hero1__list--item1 {
+  padding: 0 107px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: #295C7A;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
