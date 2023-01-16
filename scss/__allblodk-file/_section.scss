@@ -105,12 +105,14 @@
         color: $text-color;
     }
     &__list {
-        @include flexfunksiya (row, center, center, nowrap);
+        padding-bottom: 108px;
+        @include flexfunksiya (row, center, space-between, nowrap);
         gap: 40px;
         &--item {
             max-width: 240px;
             h5 {
-                text-align: center;
+                max-width: 145px;
+                margin: 0 auto;
                 font-family: $martol;
                 padding-bottom: 15px;
                 font-style: normal;
@@ -131,6 +133,35 @@
                 line-height: 20px;
                 letter-spacing: 0.2px;
                 color: $text-color;
+            }
+        }
+        .itemm {
+            p {
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hero2 {
+        background-color: #F3F3F3;
+        padding-top: 125px;
+        &__title {
+            text-align: center;
+            max-width: 124px;
+            margin: 0 auto;
+        }
+        &__text {
+            max-width: 206px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__list {
+            padding-bottom: 108px;
+            @include flexfunksiya (row, center, center, wrap);
+            &--item {
+                background-color: #fff;
             }
         }
     }

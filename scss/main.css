@@ -380,10 +380,11 @@ nav .label {
   color: #737373;
 }
 .hero2__list {
+  padding-bottom: 108px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: nowrap;
   gap: 40px;
 }
@@ -391,7 +392,8 @@ nav .label {
   max-width: 240px;
 }
 .hero2__list--item h5 {
-  text-align: center;
+  max-width: 145px;
+  margin: 0 auto;
   font-family: "Martel";
   padding-bottom: 15px;
   font-style: normal;
@@ -412,4 +414,35 @@ nav .label {
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #737373;
+}
+.hero2__list .itemm p {
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .hero2 {
+    background-color: #F3F3F3;
+    padding-top: 125px;
+  }
+  .hero2__title {
+    text-align: center;
+    max-width: 124px;
+    margin: 0 auto;
+  }
+  .hero2__text {
+    max-width: 206px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .hero2__list {
+    padding-bottom: 108px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .hero2__list--item {
+    background-color: #fff;
+  }
 }/*# sourceMappingURL=main.css.map */
