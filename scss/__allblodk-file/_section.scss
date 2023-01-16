@@ -1,0 +1,29 @@
+@import '../mixin';
+@import '../veraybls';
+.hero1 {
+    &__title {
+        font-family: $martol;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: $headeding;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+    &__text {
+        max-width: 431px;
+        width: 100%;
+        margin: 0 auto;
+        font-family: $open-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: $text-color;
+        margin-bottom: 80px;
+    }
+}

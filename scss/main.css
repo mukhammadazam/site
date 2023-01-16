@@ -274,4 +274,29 @@ nav .label {
   .hero__right--img1 {
     display: block;
   }
+}
+.hero1__title {
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #252B42;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.hero1__text {
+  max-width: 431px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 80px;
 }/*# sourceMappingURL=main.css.map */
