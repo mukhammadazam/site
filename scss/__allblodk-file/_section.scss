@@ -166,3 +166,40 @@
         }
     }
 }
+
+.hero3 {
+    padding-top: 100px;
+    padding-bottom: 143px;
+    &__title {
+        font-family: $martol;
+        padding-bottom: 15px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: $headeding;
+    }
+    &__text {
+        font-family: $open-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 468px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: $text-color;
+        padding-bottom: 100px;
+    }
+    &__left {
+        iframe {
+            max-width: 597px;
+            max-height: 442px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
+        }
+    }
+}
