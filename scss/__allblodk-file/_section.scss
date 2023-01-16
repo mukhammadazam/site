@@ -104,4 +104,17 @@
         text-align: center;
         color: $text-color;
     }
+    &__list {
+        &--item {
+            h5 {
+                font-family: $martol;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+                color: #252B42;
+            }
+        }
+    }
 }

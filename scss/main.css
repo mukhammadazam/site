@@ -378,4 +378,13 @@ nav .label {
   line-height: 20px;
   text-align: center;
   color: #737373;
+}
+.hero2__list--item h5 {
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
 }/*# sourceMappingURL=main.css.map */
