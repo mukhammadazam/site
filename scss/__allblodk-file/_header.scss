@@ -44,6 +44,9 @@ nav {
 }
 
 @media screen and (max-width:576px) {
+    header {
+        @include BG (url(../../imges/backgroundmobeli.png), no-repeat, 100%, center);
+    }
     nav {
         position: relative;
         .label {
@@ -64,7 +67,7 @@ nav {
             width: 100vw;
             z-index: 100;
             position: absolute;
-            top: 164px;
+            top: 65px;
             left: 0px;
             font-size: 30px;
             transform: translatey(-200%);
@@ -90,6 +93,7 @@ nav {
 }
 
 .hero {
+    @include flexfunksiya (row, center, space-between, nowrap);
     &__left {
         padding-top: 190px;
         &--title {
@@ -156,6 +160,70 @@ nav {
                 cursor: pointer;
                 transition: all 2s ease;
             }
+        }
+    }
+    &__right {
+        padding-top: 85px;
+        &--img1 {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hero {
+        @include flexfunksiya (column, center, center, nowrap);
+        &__left {
+            padding-top: 84px;
+            &--title {
+                padding-left: 0px;
+                text-align: center;
+                padding-bottom: 35px;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                color: $headeding;
+                max-width: 400px;
+                width: 100%;
+            }
+            &--text {
+                text-align: center;
+                margin: 0;
+            }
+            &--btn {
+                display: block;
+            }
+            &--btn1 {
+                border: none;
+                padding: 10px 36px;
+                background: #FFFFFF;
+                border-radius: 37px;
+                border: 1px solid #784F33;
+                border-radius: 37px;
+                /* btn-text */
+                font-family: $open-font;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 28px;
+                color: $btn-color;
+                &:hover {
+                    background-color: $btn-color;
+                    color: #fff;
+                    transform: rotate(360deg);
+                    cursor: pointer;
+                    transition: all 2s ease;
+                }
+            }
+        }
+        &__right {
+            &--img {
+                display: none;
+            }
+            &--img1 {
+                display: block;
+            }
+            padding-top: 0px;
         }
     }
 }

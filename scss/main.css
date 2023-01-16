@@ -83,6 +83,12 @@ nav .label {
 }
 
 @media screen and (max-width: 576px) {
+  header {
+    background-image: url(../../imges/backgroundmobeli.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
   nav {
     position: relative;
   }
@@ -104,7 +110,7 @@ nav .label {
     width: 100vw;
     z-index: 100;
     position: absolute;
-    top: 164px;
+    top: 65px;
     left: 0px;
     font-size: 30px;
     transform: translatey(-200%);
@@ -134,6 +140,13 @@ nav .label {
   .input:checked ~ .nav .nav__list {
     transform: translatey(0);
   }
+}
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 .hero__left {
   padding-top: 190px;
@@ -202,4 +215,72 @@ nav .label {
   transform: rotate(360deg);
   cursor: pointer;
   transition: all 2s ease;
+}
+.hero__right {
+  padding-top: 85px;
+}
+.hero__right--img1 {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .hero__left {
+    padding-top: 84px;
+  }
+  .hero__left--title {
+    padding-left: 0px;
+    text-align: center;
+    padding-bottom: 35px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #252B42;
+    max-width: 400px;
+    width: 100%;
+  }
+  .hero__left--text {
+    text-align: center;
+    margin: 0;
+  }
+  .hero__left--btn {
+    display: block;
+  }
+  .hero__left--btn1 {
+    border: none;
+    padding: 10px 36px;
+    background: #FFFFFF;
+    border-radius: 37px;
+    border: 1px solid #784F33;
+    border-radius: 37px;
+    /* btn-text */
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #784F33;
+  }
+  .hero__left--btn1:hover {
+    background-color: #784F33;
+    color: #fff;
+    transform: rotate(360deg);
+    cursor: pointer;
+    transition: all 2s ease;
+  }
+  .hero__right {
+    padding-top: 0px;
+  }
+  .hero__right--img {
+    display: none;
+  }
+  .hero__right--img1 {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */
