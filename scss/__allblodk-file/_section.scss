@@ -202,6 +202,7 @@
         }
     }
     &__list1 {
+        padding-left: 122px;
         &--item {
             h4 {
                 font-family: $martol;
@@ -250,12 +251,8 @@
             }
         }
     }
-    &__list--item1 {
-        @include flexfunksiya (row, start, start, wrap);
-        img {
-            padding-right: 21px;
-        }
-        p {
+    &__list1--item2 {
+        .text1 {
             font-family: 'Open Sans';
             font-style: normal;
             font-weight: 700;
@@ -263,17 +260,6 @@
             line-height: 24px;
             letter-spacing: 0.2px;
             color: #737373;
-            strong {
-                max-width: 270px;
-                font-family: 'Martel';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 24px;
-                letter-spacing: 0.1px;
-                color: #252B42;
-                display: block;
-            }
         }
     }
 }
