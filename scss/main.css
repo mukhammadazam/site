@@ -666,4 +666,10 @@ nav .label {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 86px;
+}
+.hero4__form {
+  background-image: url(../../imges/backgroundform.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }/*# sourceMappingURL=main.css.map */

@@ -362,4 +362,7 @@
         @include flexfunksiya (row, center, space-between, wrap);
         gap: 86px;
     }
+    &__form {
+        @include BG (url(../../imges/backgroundform.png), no-repeat, 100%, center);
+    }
 }
