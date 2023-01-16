@@ -508,6 +508,7 @@ nav .label {
   color: #737373;
 }
 .hero3__list--item1 {
+  padding-top: 50px;
   display: flex;
   flex-direction: row;
   align-items: start;
@@ -537,6 +538,17 @@ nav .label {
   color: #252B42;
   display: block;
 }
+.hero3__list1--item2 {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.hero3__list1--item2 img {
+  padding-right: 21px;
+}
 .hero3__list1--item2 .text1 {
   font-family: "Open Sans";
   font-style: normal;
@@ -545,4 +557,15 @@ nav .label {
   line-height: 24px;
   letter-spacing: 0.2px;
   color: #737373;
+}
+.hero3__list1--item2 strong {
+  max-width: 270px;
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  display: block;
 }/*# sourceMappingURL=main.css.map */
