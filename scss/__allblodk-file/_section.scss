@@ -200,4 +200,18 @@
             background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
         }
     }
+    &__list1 {
+        &--item {
+            h4 {
+                font-family: $martol;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                letter-spacing: 0.2px;
+                color: $headeding;
+            }
+            .p-text {}
+        }
+    }
 }
