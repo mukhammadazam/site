@@ -286,7 +286,6 @@
 
 @media screen and (max-width:576px) {
     .hero3 {
-        &__title {}
         &__text {
             max-width: 206px;
             width: 100%;
@@ -316,13 +315,6 @@
                 }
                 p {
                     max-width: 306px;
-                    font-family: $open-font;
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 20px;
-                    letter-spacing: 0.2px;
-                    color: #737373;
                 }
             }
         }
@@ -359,26 +351,15 @@
             img {
                 padding-right: 21px;
             }
-            .text1 {
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 14px;
-                line-height: 24px;
-                letter-spacing: 0.2px;
-                color: #737373;
-            }
-            strong {
-                max-width: 270px;
-                font-family: 'Martel';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 24px;
-                letter-spacing: 0.1px;
-                color: #252B42;
-                display: block;
-            }
         }
+    }
+}
+
+.hero4 {
+    padding-top: 51px;
+    &__site {
+        padding-bottom: 71px;
+        @include flexfunksiya (row, center, space-between, wrap);
+        gap: 86px;
     }
 }
