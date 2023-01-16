@@ -139,6 +139,7 @@ nav .label {
   }
   .input:checked ~ .nav .nav__list {
     transform: translatey(0);
+    margin-bottom: 160px;
   }
 }
 .hero {
@@ -247,34 +248,24 @@ nav .label {
   }
   .hero__left--text {
     text-align: center;
-    margin: 0;
+    margin-left: 5px;
   }
   .hero__left--btn {
     display: block;
+    text-align: center;
+    max-width: 182px;
+    width: 100%;
+    margin: 0 auto;
   }
   .hero__left--btn1 {
-    border: none;
-    padding: 10px 36px;
-    background: #FFFFFF;
-    border-radius: 37px;
-    border: 1px solid #784F33;
-    border-radius: 37px;
-    /* btn-text */
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 28px;
-    color: #784F33;
-  }
-  .hero__left--btn1:hover {
-    background-color: #784F33;
-    color: #fff;
-    transform: rotate(360deg);
-    cursor: pointer;
-    transition: all 2s ease;
+    display: block;
+    max-width: 155px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
   }
   .hero__right {
+    padding-top: 108px;
     padding-top: 0px;
   }
   .hero__right--img {
