@@ -200,6 +200,9 @@
         iframe {
             background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
         }
+        .aa {
+            display: none;
+        }
     }
     &__list1 {
         padding-left: 122px;
@@ -283,50 +286,33 @@
 
 @media screen and (max-width:576px) {
     .hero3 {
-        padding-top: 100px;
-        padding-bottom: 143px;
-        &__title {
-            font-family: $martol;
-            padding-bottom: 15px;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 50px;
-            text-align: center;
-            letter-spacing: 0.2px;
-            color: $headeding;
-        }
+        &__title {}
         &__text {
-            font-family: $open-font;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            max-width: 468px;
+            max-width: 206px;
             width: 100%;
             margin: 0 auto;
-            text-align: center;
-            letter-spacing: 0.2px;
-            color: $text-color;
-            padding-bottom: 100px;
         }
         &__left {
-            @include flexfunksiya (row, center, space-between, nowrap);
+            @include flexfunksiya (column, center, space-between, nowrap);
             iframe {
                 background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
             }
+            .aaaa {
+                display: none;
+            }
+            .aa {
+                display: block;
+                text-align: center;
+            }
         }
         &__list1 {
-            padding-left: 122px;
+            padding-left: 0px;
+            padding-top: 72px;
             &--item {
                 h4 {
-                    font-family: $martol;
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 40px;
-                    line-height: 50px;
-                    letter-spacing: 0.2px;
-                    color: $headeding;
+                    max-width: 321px;
+                    margin: 0 auto;
+                    width: 100%;
                 }
                 p {
                     max-width: 306px;

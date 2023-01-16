@@ -13,6 +13,10 @@
     margin: 0 auto;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 @import './mixin';
 @import './veraybls';
 @import './__allblodk-file/all-block'
