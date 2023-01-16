@@ -26,4 +26,17 @@
         color: $text-color;
         margin-bottom: 80px;
     }
+    &__list {
+        @include flexfunksiya (row, center, center, wrap);
+        gap: 34px;
+        &--item {
+            padding: 0 107px;
+            background-color: #fff;
+        }
+    }
+    .iii {
+        background: #295C7A;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        border-radius: 5px;
+    }
 }
