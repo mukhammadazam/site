@@ -723,4 +723,78 @@ nav .label {
   text-align: center;
   letter-spacing: 0.2px;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 576px) {
+  .hero4 {
+    padding-top: 51px;
+  }
+  .hero4__site {
+    padding-bottom: 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 60px;
+    padding-left: 132px;
+    padding-right: 132px;
+  }
+  .hero4__form {
+    position: relative;
+    top: 50px;
+    background-image: url(../../imges/backgroundform.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  .hero4__form .for {
+    position: relative;
+    bottom: 50px;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 986px;
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+    border-radius: 2px;
+  }
+  .hero4__form .for label {
+    display: block;
+    max-width: 253px;
+    font-family: "Martel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    border: none;
+  }
+  .hero4__form .for__input {
+    outline: none;
+    border: none;
+    padding: 15px 352px 15px 20px;
+  }
+  .hero4__form .for__btn {
+    position: absolute;
+    right: 50px;
+    padding: 10px 22.5px;
+    background: #D0A144;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+  }
 }/*# sourceMappingURL=main.css.map */

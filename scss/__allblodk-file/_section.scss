@@ -413,3 +413,66 @@
         }
     }
 }
+
+@media screen and (max-width:576px) {
+    .hero4 {
+        padding-top: 51px;
+        &__site {
+            padding-bottom: 71px;
+            @include flexfunksiya (column, center, center, nowrap);
+            gap: 60px;
+            padding-left: 132px;
+            padding-right: 132px;
+        }
+        &__form {
+            position: relative;
+            top: 50px;
+            @include BG (url(../../imges/backgroundform.png), no-repeat, 100%, center);
+            .for {
+                position: relative;
+                bottom: 50px;
+                padding: 30px 50px;
+                @include flexfunksiya (row, center, space-between, wrap);
+                max-width: 986px;
+                width: 100%;
+                margin: 0 auto;
+                background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+                border-radius: 2px;
+                label {
+                    display: block;
+                    max-width: 253px;
+                    font-family: 'Martel';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    border: none;
+                }
+                &__input {
+                    outline: none;
+                    border: none;
+                    padding: 15px 352px 15px 20px;
+                }
+                &__btn {
+                    position: absolute;
+                    right: 50px;
+                    padding: 10px 22.5px;
+                    background: #D0A144;
+                    border: 1px solid #E6E6E6;
+                    border-radius: 0px 5px 5px 0px;
+                    border: none;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 28px;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
