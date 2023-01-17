@@ -626,3 +626,82 @@ footer {
         }
     }
 }
+
+.foter {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    @include flexfunksiya (row, center, space-between, wrap);
+    &__text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #737373;
+    }
+    &__card {
+        gap: 20px;
+        display: block;
+        @include flexfunksiya (row, center, center, wrap);
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hero7 {
+        max-width: 328px;
+        margin: 0 auto;
+        @include flexfunksiya (column, center, center, wrap);
+        &__text {
+            text-align: center;
+        }
+        &__text1 {
+            text-align: center;
+        }
+    }
+    .hero6 {
+        &__list {
+            text-align: center;
+            @include flexfunksiya (column, center, center, wrap);
+        }
+    }
+    .footer {
+        @include flexfunksiya (column, start, start, wrap);
+        &__list {
+            padding-bottom: 30px;
+            padding-left: 88px;
+            gap: 10px;
+            .item1 {
+                padding-bottom: 10px;
+                font-family: 'Martel';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #fff;
+            }
+            &-item {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .foter {
+        padding-top: 20px;
+        padding-bottom: 25px;
+        @include flexfunksiya (column, center, center, wrap);
+        &__text {
+            max-width: 219px;
+            margin: 0 auto;
+            padding-bottom: 50px;
+        }
+        &__card {
+            gap: 20px;
+            display: block;
+            @include flexfunksiya (row, center, center, wrap);
+        }
+    }
+}

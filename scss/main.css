@@ -948,4 +948,109 @@ footer {
   font-size: 14px;
   line-height: 24px;
   color: #FFFFFF;
+}
+
+.foter {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.foter__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #737373;
+}
+.foter__card {
+  gap: 20px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+  .hero7 {
+    max-width: 328px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .hero7__text {
+    text-align: center;
+  }
+  .hero7__text1 {
+    text-align: center;
+  }
+  .hero6__list {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .footer__list {
+    padding-bottom: 30px;
+    padding-left: 88px;
+    gap: 10px;
+  }
+  .footer__list .item1 {
+    padding-bottom: 10px;
+    font-family: "Martel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+  .footer__list-item {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .foter {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .foter__text {
+    max-width: 219px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .foter__card {
+    gap: 20px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=main.css.map */
