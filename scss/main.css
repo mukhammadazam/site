@@ -773,4 +773,30 @@ nav .label {
     right: 22px;
     bottom: 29px;
   }
+}
+.hero6 {
+  padding-top: 80px;
+}
+.hero6__title {
+  font-family: "Martel";
+  text-align: center;
+  font-style: normal;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #252B42;
+}
+.hero6__text {
+  max-width: 431px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #737373;
+  padding-bottom: 80px;
 }/*# sourceMappingURL=main.css.map */
