@@ -774,6 +774,10 @@ nav .label {
     bottom: 29px;
   }
 }
+.sites {
+  background-color: #f3f3f3;
+}
+
 .hero6 {
   padding-top: 80px;
 }
@@ -799,4 +803,149 @@ nav .label {
   text-align: center;
   color: #737373;
   padding-bottom: 80px;
+}
+.hero6__list {
+  padding-bottom: 185px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero6__list--item {
+  background-color: #fff;
+  max-width: 328px;
+  width: 100%;
+}
+.hero6__list--item:hover {
+  background: #252B42;
+  transform: scale(1.2);
+}
+.hero6__list .card {
+  max-width: 210px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.hero6__list .qungiroq {
+  display: block;
+  padding-bottom: 15px;
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.hero6__list .strong {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #252B42;
+  padding-bottom: 15px;
+  display: block;
+  max-width: 210px;
+  width: 100%;
+  text-align: center;
+}
+.hero6__list .strong:hover {
+  color: #fff;
+}
+.hero6__list .leni {
+  display: block;
+  text-align: center;
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252B42;
+  padding-bottom: 15px;
+}
+.hero6__list .leni:hover {
+  color: #fff;
+}
+.hero6__list .btn1 {
+  display: block;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #D0A144;
+  border: 1px solid #D0A144;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.hero7 {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero7__text {
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #252B42;
+}
+.hero7__text1 {
+  padding-top: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+}
+.hero7 .btn2 {
+  background: #784F33;
+  border-radius: 5px;
+  padding: 15px 40px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  border: none;
+}
+
+footer {
+  padding: 50px 0;
+  background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__list {
+  gap: 10px;
+}
+.footer__list .item1 {
+  padding-bottom: 10px;
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+.footer__list-item {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
